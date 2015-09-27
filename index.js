@@ -1,5 +1,6 @@
 function enter_handler() {
-	$(".word").css("visibility", "hidden");
+	$(".word").css("opacity", "0");
+	$("." + this.classList[1]).css("opacity", "1");
 }
 
 function leave_handler() {
