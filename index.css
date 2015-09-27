@@ -1,0 +1,24 @@
+.tulip_container {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+
+	display: inline-block;
+	float: left;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.1;
+	font-size: 15.3vh;
+}
+.letter {
+	width: 100%;
+	text-align: center;
+}
+.word_wrapper {
+	display: block;
+}
+.word {
+    display: inline-block;
+	visibility: hidden;
+}
