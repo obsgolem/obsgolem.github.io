@@ -1,3 +1,6 @@
+.outer {
+	width: 10%;
+}
 .tulip_container {
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -12,6 +15,8 @@
 	font-size: 15.3vh;
 }
 .word_container {
+	width: 90%;
+	white-space: nowrap;
 }
 .letter {
 	width: 100%;
