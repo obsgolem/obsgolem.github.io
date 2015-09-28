@@ -1,6 +1,17 @@
-.outer {
-	width: 10%;
+body {
+	white-space: nowrap;
 }
+
+.outer {
+	/*width: 10%;*/
+	display: block;
+	float: left;
+}
+.word_container {
+	/*width: 90%;*/
+	display: block;
+}
+
 .tulip_container {
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -8,16 +19,16 @@
 	-o-user-select: none;
 	user-select: none;
 
-	display: inline;
-	float: left;
+	/*float: left;*/
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 1.1;
 	font-size: 15.3vh;
 }
-.word_container {
-	width: 90%;
-	white-space: nowrap;
+
+.letter_container {
+	float: right;
 }
+
 .letter {
 	width: 100%;
 	text-align: center;
