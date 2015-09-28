@@ -1,6 +1,7 @@
 body {
 	white-space: nowrap;
 	background-color: #e1e1e1;
+	margin: 0px;
 }
 
 .letter_container {
@@ -12,6 +13,14 @@ body {
 }
 
 .tulip_container {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	cursor: pointer;
+
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -21,7 +30,7 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 1.1;
 	font-size: 15.3vh;
-	color: #717171;
+	color: #6a6a6a;
 }
 
 .letter {
