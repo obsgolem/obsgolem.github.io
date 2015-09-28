@@ -2,13 +2,11 @@ body {
 	white-space: nowrap;
 }
 
-.outer {
-	/*width: 10%;*/
+.letter_container {
 	display: block;
 	float: left;
 }
 .word_container {
-	/*width: 90%;*/
 	display: block;
 }
 
@@ -19,14 +17,9 @@ body {
 	-o-user-select: none;
 	user-select: none;
 
-	/*float: left;*/
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 1.1;
 	font-size: 15.3vh;
-}
-
-.letter_container {
-	float: right;
 }
 
 .letter {
